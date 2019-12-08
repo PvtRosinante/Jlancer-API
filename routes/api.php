@@ -37,3 +37,5 @@ Route::get('skill', 'SkillController@index');
 Route::post('skill', 'SkillController@create');
 Route::post('/skill/{id}', 'SkillController@update');
 Route::delete('/skill/{id}', 'SkillController@delete');
+
+Route::get('/cv', 'CvController@index');
